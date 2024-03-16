@@ -1,1 +1,0 @@
-Programowanie_w_JavaScript_LAB_1
