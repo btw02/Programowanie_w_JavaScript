@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="lab02.css">
+</head>
+<body>
+    <div class="slider">
+            <div class="slides">
+                <img class="slide" src="https://picsum.photos/id/40/600/400"  alt="Slide 1">
+                <img class="slide" src="https://picsum.photos/id/169/600/400" alt="Slide 2">
+                <img class="slide" src="https://picsum.photos/id/200/600/400" alt="Slide 3">
+                <img class="slide" src="https://picsum.photos/id/237/600/400" alt="Slide 4">
+                <img class="slide" src="https://picsum.photos/id/219/600/400" alt="Slide 5">
+            </div>
+            
+            <!-- Przycisk Dalej -->
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            
+            <!-- Przycisk Wstecz -->
+            <button class="next" onclick="nextSlide()">&#10095</button>
+            
+            <div class="dots">
+              <span class="dot" onclick="goToSlide(0)"></span>
+              <span class="dot" onclick="goToSlide(1)"></span>
+              <span class="dot" onclick="goToSlide(2)"></span>
+              <span class="dot" onclick="goToSlide(3)"></span>
+              <span class="dot" onclick="goToSlide(4)"></span>
+          </div>
+
+          <button class="pause" onclick="togglePause()">Pause / Play</button>
+
+    </div>
+
+
+    <script src="lab02.js"></script>
+</body>
+</html>
