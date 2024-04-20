@@ -1,0 +1,78 @@
+/* CSS quickly copied from the internet to make the website look nice */
+
+:root {
+    --head-color: hsla(0, 0%, 13%, 1);
+    --dark-blue: hsla(228, 69%, 13%, 1);
+    --blue: hsla(228, 69%, 20%, 1);
+  
+    --content-color: hsla(0, 0%, 13%, 1);
+    --greyish: hsla(0, 2%, 44%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+  }
+  body {
+    position: relative;
+    inline-size: 100%;
+    block-size: 100%;
+    font-family: "DM Sans", sans-serif;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main {
+    inline-size: 90%;
+  }
+  
+  .Add-new-note-btn {
+    background-color: var(--dark-blue);
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    inline-size: 15%;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 24px;
+    color: var(--white);
+    border-radius: 25px;
+    margin-block-end: 1.5rem;
+  }
+  .submit-note{
+    padding: 15px 24px;
+    background:var(--dark-blue);
+    border-radius: 20px;
+    color: var(--white);
+    margin-block-start: 1rem;
+    inline-size: 40%;
+    margin-inline-start:60%;
+    border:none;
+    white-space: nowrap;
+  }
+  textarea{
+    resize: none;
+    padding: 0.7rem;
+    display: block;
+    inline-size: 310px;
+    block-size: 112px;
+    border-radius: 10px;
+    background:var(--greyish);
+    color: var(--white);
+  }
+  .note-div{
+    inline-size: 160px;
+    block-size: 120px;
+    background: #FCF5D2;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.4rem;
+  }
+  #note-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
